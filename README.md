@@ -21,9 +21,13 @@ Laravel Permission Group adalah package tambahan untuk Laravel yang memungkinkan
 
 Untuk menginstal package ini, cukup jalankan perintah berikut:
 
-```bash
-composer require mahdiawan-nk/laravel-permission-group
-```
+
+1. jalankan composer require mahdiawan-nk/laravel-permission-group
+2. Jalankan php artisan migrate
+3. Daftarkan ServiceProvider jika belum otomatis 
+4. Gunakan trait HasPermissionGroups di model User
+5. Jalankan php artisan permission:sync untuk isi data permission default
+
 ````
 
 > Pastikan kamu menggunakan PHP 8.1 atau lebih tinggi.
