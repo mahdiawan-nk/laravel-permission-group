@@ -1,9 +1,9 @@
 <?php
 
-namespace Custom\PermissionGroup\Traits;
+namespace MahdiawanNK\PermissionGroup\Traits;
 
-use Custom\PermissionGroup\Models\Role;
-use Custom\PermissionGroup\Models\Permission;
+use MahdiawanNK\PermissionGroup\Models\Role;
+use MahdiawanNK\PermissionGroup\Models\Permission;
 
 trait HasPermissionGroups
 {

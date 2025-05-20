@@ -1,11 +1,11 @@
 <?php
 
-namespace Custom\PermissionGroup\Commands;
+namespace MahdiawanNK\PermissionGroup\Commands;
 
 use Illuminate\Console\Command;
-use Custom\PermissionGroup\Models\PermissionGroup;
-use Custom\PermissionGroup\Models\Permission;
-use Custom\PermissionGroup\Models\Role;
+use MahdiawanNK\PermissionGroup\Models\PermissionGroup;
+use MahdiawanNK\PermissionGroup\Models\Permission;
+use MahdiawanNK\PermissionGroup\Models\Role;
 
 class PermissionSyncCommand extends Command
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Custom\PermissionGroup\Http\Middleware;
+namespace MahdiawanNK\PermissionGroup\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

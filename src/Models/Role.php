@@ -1,6 +1,6 @@
 <?php
 
-namespace Custom\PermissionGroup\Models;
+namespace MahdiawanNK\PermissionGroup\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
