@@ -1,0 +1,42 @@
+{
+    "name": "mahdiawan-nk/laravel-permission-group",
+    "description": "Laravel permission package with group support",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "permission",
+        "role",
+        "authorization",
+        "access-control",
+        "permission-group",
+        "laravel-permission",
+        "rbac",
+        "acl",
+        "grouped-permission",
+        "laravel-package"
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MahdiawanNk\\PermissionGroup\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MahdiawanNk\\LaravelPermissionGroup\\Providers\\PermissionServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Mahdiawan-NK",
+            "email": "dev.mrcoders@gmail.com"
+        }
+    ]
+}
