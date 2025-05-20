@@ -1,6 +1,6 @@
 <?php
 
-namespace Custom\PermissionGroup\Providers;
+namespace MahdiawanNK\PermissionGroup\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Custom\PermissionGroup\Commands\PermissionSyncCommand;

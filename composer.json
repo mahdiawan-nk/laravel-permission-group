@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MahdiawanNk\\LaravelPermissionGroup\\Providers\\PermissionServiceProvider"
+                "MahdiawanNk\\PermissionGroup\\Providers\\PermissionServiceProvider"
             ]
         }
     },
