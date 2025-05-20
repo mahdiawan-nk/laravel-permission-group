@@ -1,9 +1,9 @@
 <?php
 
-namespace MahdiawanNK\PermissionGroup\Providers;
+namespace MahdiawanNK\PermissionGroup\Providers;//use Illuminate\Support\ServiceProvider;
 
 use Illuminate\Support\ServiceProvider;
-use Custom\PermissionGroup\Commands\PermissionSyncCommand;
+use MahdiawanNK\PermissionGroup\Commands\PermissionSyncCommand;
 
 class PermissionServiceProvider extends ServiceProvider
 {

@@ -14,7 +14,6 @@ Laravel Permission Group adalah package tambahan untuk Laravel yang memungkinkan
 -   PSR-4 autoloading
 -   Siap digunakan dalam Laravel 9, 10, 11, dan 12
 -   Cocok digunakan bersama package seperti Spatie Laravel-Permission
-
 ---
 
 ## 📦 Instalasi
