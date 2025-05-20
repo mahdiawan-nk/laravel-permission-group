@@ -11,10 +11,10 @@ class CreatePermissionsTable extends Migration
         Schema::create('permissions', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->foreignId('permission_group_id')->constrained()->onDelete('cascade');
+            $table->string('guard_name')->default('web');
+            $table->foreignId('permission_group_id')->constrained()->onDelete()->nullOnDelete();
             $table->string('description')->nullable();
             $table->timestamps();
-            $table->unique(['name', 'permission_group_id']);
         });
     }
 

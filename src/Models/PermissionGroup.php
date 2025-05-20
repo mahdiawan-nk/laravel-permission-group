@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class PermissionGroup extends Model
 {
-    protected $fillable = ['name', 'description'];
+    protected $fillable = ['name', 'icon', 'description'];
 
     public function permissions(): HasMany
     {
